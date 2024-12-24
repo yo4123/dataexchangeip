@@ -4,6 +4,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: "/dataexchangeip/",
   server: {
     proxy: {
       '/api': 'http://localhost:3000'
